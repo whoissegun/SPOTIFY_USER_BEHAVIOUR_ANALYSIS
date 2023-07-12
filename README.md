@@ -9,21 +9,21 @@ The project's central focus is to generate data-driven insights from the provide
 
    **Classification Report for PremiumPlanSubscriptionAmountPredictorV1:**
 
-|   | precision | recall | f1-score | support |
-|---|-----------|--------|----------|---------|
-| 0 | 0.96      | 0.98   | 0.97     | 56      |
-| 1 | 0.92      | 0.92   | 0.92     | 24      |
-| 2 | 0.98      | 0.74   | 0.84     | 68      |
-| 3 | 0.91      | 0.94   | 0.92     | 133     |
-| 4 | 0.85      | 0.99   | 0.91     | 67      |
+**Classification Report for PremiumPlanSubscriptionAmountPredictorV1:**
 
-|   |   |
-|---|---|
-| accuracy   | 0.91 348 |
-| macro avg  | 0.92 0.91 0.91 348 |
-| weighted avg | 0.92 0.91 0.91 348 |
+|     | precision | recall | f1-score | support |
+|-----|-----------|--------|----------|---------|
+| 0   | 0.96      | 0.98   | 0.97     | 56      |
+| 1   | 0.92      | 0.92   | 0.92     | 24      |
+| 2   | 0.98      | 0.74   | 0.84     | 68      |
+| 3   | 0.91      | 0.94   | 0.92     | 133     |
+| 4   | 0.85      | 0.99   | 0.91     | 67      |
+|     |           |        |          |         |
+| accuracy   |     |        | 0.91     | 348     |
+| macro avg  | 0.92| 0.91   | 0.91     | 348     |
+| weighted avg | 0.92 | 0.91 | 0.91 | 348     |
 
-**Accuracy: 0.9138**
+
 
 
 
@@ -35,14 +35,11 @@ The project's central focus is to generate data-driven insights from the provide
 |-----|-----------|--------|----------|---------|
 | 0.0 | 0.76      | 0.88   | 0.82     | 108     |
 | 1.0 | 0.72      | 0.53   | 0.61     | 64      |
+|     |           |        |          |         |
+| accuracy   |     |        | 0.75     | 172     |
+| macro avg  | 0.74| 0.71   | 0.71     | 172     |
+| weighted avg | 0.75 | 0.75 | 0.74 | 172     |
 
-|     |     |
-|-----|-----|
-| accuracy   | 0.75 172 |
-| macro avg  | 0.74 0.71 0.71 172 |
-| weighted avg | 0.75 0.75 0.74 172 |
-
-**Accuracy: 0.75**
 
 
 
