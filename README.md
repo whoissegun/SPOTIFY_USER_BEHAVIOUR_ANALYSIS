@@ -29,14 +29,21 @@ The project's central focus is to generate data-driven insights from the provide
 
 2) PremiumPlanSubscriptionPredictorV3: The second model aims to predict whether users would be interested in subscribing to or maintaining their existing Spotify premium plan. This model achieved a decent accuracy score of 75%. Below is its detailed performance as per the classification report:
 
-   Classification Report for PremiumPlanSubscriptionPredictorV3:
-           precision    recall  f1-score   support
-      0.0       0.76      0.88      0.82       108
-      1.0       0.72      0.53      0.61        64
-accuracy                           0.75       172
-macro avg       0.74      0.71      0.71       172
-weighted avg       0.75      0.75      0.74       172
-Accuracy: 0.75
+   **Classification Report for PremiumPlanSubscriptionPredictorV3:**
+
+|     | precision | recall | f1-score | support |
+|-----|-----------|--------|----------|---------|
+| 0.0 | 0.76      | 0.88   | 0.82     | 108     |
+| 1.0 | 0.72      | 0.53   | 0.61     | 64      |
+
+|     |     |
+|-----|-----|
+| accuracy   | 0.75 172 |
+| macro avg  | 0.74 0.71 0.71 172 |
+| weighted avg | 0.75 0.75 0.74 172 |
+
+**Accuracy: 0.75**
+
 
 
 These models provide an opportunity to leverage machine learning to gain valuable insights and make informed predictions about user behaviors, which could be instrumental in strategic decision-making processes, specifically in enhancing subscription services and user experience.
